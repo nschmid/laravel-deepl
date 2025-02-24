@@ -17,7 +17,7 @@ Provides access to DeepL API for Laravel projects
 To get the latest version of `Laravel DeepL`, simply require the project using [Composer](https://getcomposer.org):
 
 ```bash
-$ composer require justraviga/laravel-deepl
+$ composer require nschmid/laravel-deepl
 ```
 
 Or manually update `require` block of `composer.json` and run `composer update`.
@@ -25,7 +25,7 @@ Or manually update `require` block of `composer.json` and run `composer update`.
 ```json
 {
     "require": {
-        "justraviga/laravel-deepl": "^0.1"
+        "nschmid/laravel-deepl": "^0.1"
     }
 }
 ```
@@ -47,14 +47,18 @@ Create/Update lang files for specific language. It allows to complete all missin
 php artisan deepl:sync de
 ```
 
-[badge_downloads]:      https://img.shields.io/packagist/dt/justraviga/laravel-deepl.svg?style=flat-square
+[badge_downloads]:      https://img.shields.io/packagist/dt/nschmid/laravel-deepl.svg?style=flat-square
 
-[badge_license]:        https://img.shields.io/packagist/l/justraviga/laravel-deepl.svg?style=flat-square
+[badge_license]:        https://img.shields.io/packagist/l/nschmid/laravel-deepl.svg?style=flat-square
 
-[badge_stable]:         https://img.shields.io/github/v/release/justraviga/laravel-deepl?label=stable&style=flat-square
+[badge_stable]:         https://img.shields.io/github/v/release/nschmid/laravel-deepl?label=stable&style=flat-square
 
 [badge_unstable]:       https://img.shields.io/badge/unstable-dev--main-orange?style=flat-square
 
 [link_license]:         LICENSE
 
-[link_packagist]:       https://packagist.org/packages/justraviga/laravel-deepl
+[link_packagist]:       https://packagist.org/packages/nschmid/laravel-deepl
+
+
+### Updates
+- Bumped versions to work with laravel 10
