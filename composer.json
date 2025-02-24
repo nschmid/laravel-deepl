@@ -1,5 +1,5 @@
 {
-    "name" : "justraviga/laravel-deepl",
+    "name" : "nschmid/laravel-deepl",
     "description" : "Deepl Automated translations for Laravel lang files",
     "type" : "library",
     "license" : "MIT",
@@ -15,15 +15,19 @@
         {
             "name" : "Hodun Dmytro",
             "email" : "godundmytro@gmail.com"
+        },
+        {
+            "name" : "Nicolas Schmid",
+            "email" : "nicolas.m.schmid@gmail.com"
         }
     ],
     "support" : {
-        "issues" : "https://github.com/JustRaviga/laravel-deepl/issues",
-        "source" : "https://github.com/JustRaviga/laravel-deepl"
+        "issues" : "https://github.com/nschmid/laravel-deepl/issues",
+        "source" : "https://github.com/nschmid/laravel-deepl"
     },
     "require" : {
-        "php" : "^7.4|^8.0",
-        "illuminate/support" : "^8.0|^9.0",
+        "php" : "^7.4|^8.0|^8.1|^8.2",
+        "illuminate/support" : "^8.0|^9.0|^10.0",
         "guzzlehttp/guzzle" : "7.*|^6.5",
         "chriskonnertz/deeply" : "^2.0",
         "justraviga/laravel-langman" : "^0.1"
